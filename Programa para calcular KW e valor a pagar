@@ -1,0 +1,13 @@
+using system;
+//entrada
+double SM,KW, valorunitario, desconto, valor;
+Console WriteLine("digite o salario minimo e quilowatts");
+SM=double.Parse(Console.ReadLine());
+KW=double.Parse(Console.ReadLine());
+//formulas
+valorunitario= (SM/7)/100;
+valor= valorunitario*KM;
+desconto= valor*0.9;
+//saida
+Console.WriteLine("Valor 1KN: "+valorunitario);
+Console.WriteLine("Valor a pagar"+valor);
